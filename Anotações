@@ -1,0 +1,12 @@
+npm ini -y << para iniciar, -y serve para não ter que ficar confirmando.
+
+npm i express sequelize sqlite3 << irá criar o banco tilizando sqlite3, o express serve para ajudar para não ter que codar tudo na mão
+
+npm i --save-dev nodemon << serve para criar e já deixar configurado que ele irá ir salvando.
+
+Depois ir no arquivo packege.json e acrescentar:
+"dev":"nodemon ."
+Logo baixo de "test"
+
+Feito essa parte ir logo cima, baixo de "main" e colocar "type":"module"
+
